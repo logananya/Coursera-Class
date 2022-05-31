@@ -1,0 +1,75 @@
+body {
+    background-color: grey;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+.box1, .box2, .box3 {
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 5px;
+   
+    
+    
+}
+p {
+    padding: 10px;
+    
+}
+.badge1 {
+    background-color: rgba(255, 0, 0, 0.5);
+    
+}
+.badge2 {
+    background-color: rgba(17, 255, 0, 0.575);
+}
+.badge3 {
+    background-color: rgba(76, 0, 255, 0.578);
+}
+
+.badge1, .badge2, .badge3 {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 0%;
+    margin-top: -2px;
+  
+}
+
+@media (min-width: 992px) {
+   
+    .col-lg-4  {
+        width: 30.33%;
+        float: left;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .box1, .box2 {
+        position: relative;
+        left: 18%;   
+    }
+    .col-lg-4 {
+        width: 30.33%;
+        float: left;
+        
+    }
+    .box3.col-lg-12 {
+width: 99%;   
+    
+}
+
+}
+@media (max-width: 767px) {
+    .col-lg-12 {
+        width: 100%;
+    }
+    
+}
+
