@@ -1,0 +1,77 @@
+body {
+    background: rgb(122, 76, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 0%;
+    margin: 0%;
+
+}
+* {
+    box-sizing: border-box;  
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    padding: 30px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 20px;
+    
+}
+.box {
+    background-color: white;
+    font-style: italic;
+    float: left;
+    margin: 10px;
+    border: 2px solid black;
+}
+.label {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    margin: -2px;
+}
+.label1 {
+    background-color: yellow;
+}
+.label2 {
+    background-color: aqua;
+}
+.label3 {
+    background-color: burlywood;
+}
+
+
+@media (min-width: 992px) {
+    .box {
+     
+        width: 30.20%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .box1, .box2 {
+      
+        width: 44.90%;
+       
+    }
+    .box3 {
+       
+        width: 91.80%;
+    }
+    
+    
+    
+}
+@media (max-width: 767px) {
+    .box {
+        width: 90.80%;
+    }
+
+    
+}
